@@ -18,6 +18,7 @@ import { LayoutComponent } from './components/shared/layout/layout.component';
 import { AgentsComponent } from './pages/agents/agents.component';
 import { RequestsComponent } from './pages/requests/requests.component';
 import { ClientsComponent } from './pages/clients/clients.component';
+import { AddCustomerComponent } from './components/shared/modals/add-customer/add-customer.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ClientsComponent } from './pages/clients/clients.component';
     AgentsComponent,
     RequestsComponent,
     ClientsComponent,
+    AddCustomerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

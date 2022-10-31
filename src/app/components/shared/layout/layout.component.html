@@ -627,11 +627,17 @@
         </li>
         <li class="nav-item">
           <a class="nav-link">
-            <span class="menu-title">Inquiries</span>
-            <i class="mdi mdi-comment-account-outline menu-icon"></i>
+            <span class="menu-title">Agents</span>
+            <i class="mdi mdi-account menu-icon"></i>
           </a>
         </li>
         <li class="nav-item">
+          <a class="nav-link">
+            <span class="menu-title">Requests</span>
+            <i class="mdi mdi-comment-account-outline menu-icon"></i>
+          </a>
+        </li>
+        <!--<li class="nav-item">
           <a class="nav-link">
             <span class="menu-title">Properties</span>
             <i class="mdi mdi-bank menu-icon"></i>
@@ -685,12 +691,16 @@
               </li>
             </ul>
           </div>
-        </li>
+        </li>-->
       </ul>
     </nav>
     <!-- partial -->
     <div class="main-panel">
-      <app-dashboard></app-dashboard>
+      <div class="content-wrapper">
+        <!--<app-dashboard></app-dashboard>-->
+        <app-accounts></app-accounts>
+      </div>
+
       <!-- content-wrapper ends -->
       <!-- partial:partials/_footer.html -->
       <!--<footer class="footer"></footer>-->

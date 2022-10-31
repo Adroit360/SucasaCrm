@@ -16,6 +16,7 @@ import { ListingsComponent } from './pages/listings/listings.component';
 import { OpenHousesComponent } from './pages/open-houses/open-houses.component';
 import { LayoutComponent } from './components/shared/layout/layout.component';
 import { AgentsComponent } from './pages/agents/agents.component';
+import { RequestsComponent } from './pages/requests/requests.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AgentsComponent } from './pages/agents/agents.component';
     OpenHousesComponent,
     LayoutComponent,
     AgentsComponent,
+    RequestsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

@@ -1,3 +1,4 @@
+import { LeadsComponent } from './pages/leads/leads.component';
 import { ClientsComponent } from './pages/clients/clients.component';
 import { AgentsComponent } from './pages/agents/agents.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'agents', component: AgentsComponent },
   { path: 'requests', component: RequestsComponent },
   { path: 'clients', component: ClientsComponent },
+  { path: 'leads', component: LeadsComponent },
 ];
 
 @NgModule({

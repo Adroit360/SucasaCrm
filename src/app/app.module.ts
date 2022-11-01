@@ -18,8 +18,9 @@ import { LayoutComponent } from './components/shared/layout/layout.component';
 import { AgentsComponent } from './pages/agents/agents.component';
 import { RequestsComponent } from './pages/requests/requests.component';
 import { ClientsComponent } from './pages/clients/clients.component';
-import { AddContactComponent } from './components/shared/modals/add-customer/add-customer.component';
-import { EditContactComponent } from './components/shared/modals/edit-contact/edit-contact.component';
+import { AddContactComponent } from './components/shared/modals/contacts/add-contact/add-contact.component';
+import { EditContactComponent } from './components/shared/modals/contacts/edit-contact/edit-contact.component';
+import { LeadsComponent } from './pages/leads/leads.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { EditContactComponent } from './components/shared/modals/edit-contact/ed
     ClientsComponent,
     AddContactComponent,
     EditContactComponent,
+    LeadsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

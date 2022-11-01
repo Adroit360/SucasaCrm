@@ -21,6 +21,8 @@ import { ClientsComponent } from './pages/clients/clients.component';
 import { AddContactComponent } from './components/shared/modals/contacts/add-contact/add-contact.component';
 import { EditContactComponent } from './components/shared/modals/contacts/edit-contact/edit-contact.component';
 import { LeadsComponent } from './pages/leads/leads.component';
+import { FormsModule } from '@angular/forms';
+import { DropdownModule } from 'primeng/dropdown';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,13 @@ import { LeadsComponent } from './pages/leads/leads.component';
     EditContactComponent,
     LeadsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    FormsModule,
+    DropdownModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
